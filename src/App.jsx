@@ -80,10 +80,12 @@ function App() {
       setShowRestaurants(false)
       const scheduleFull = 'Clear your schedule on the 13th'
       let scheduleIndex = 0
+      let currentText = ''
       
       const scheduleInterval = setInterval(() => {
         if (scheduleIndex < scheduleFull.length) {
-          setScheduleText(prev => prev + scheduleFull[scheduleIndex])
+          currentText = scheduleFull.substring(0, scheduleIndex + 1)
+          setScheduleText(currentText)
           scheduleIndex++
         } else {
           clearInterval(scheduleInterval)
@@ -267,7 +269,7 @@ function App() {
           <div className="stage-container solid-black-bg restaurants-stage">
             <h1 className="royal-title typewriter-text">
               {scheduleText}
-              {scheduleText === 'Please clear your schedule on the 13th' && <span className="cursor">|</span>}
+              {scheduleText === 'Clear your schedule on the 13th' && <span className="cursor">|</span>}
             </h1>
             <div className="restaurants-list">
               {RESTAURANTS.map((restaurant, index) => (
@@ -292,7 +294,7 @@ function App() {
                 className="theres-more-btn fade-in"
                 onClick={handleTheresMore}
               >
-                There's more
+                February 13
               </button>
             )}
             {showBlur && (

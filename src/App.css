@@ -142,28 +142,31 @@
 }
 
 .pink-bg .btn-yes {
-  border-color: #ff69b4;
-  color: #ff69b4;
+  border: none;
+  color: #000000;
+  background-color: transparent;
 }
 
 .pink-bg .btn-yes:hover {
-  background-color: #ff69b4;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000;
 }
 
 .pink-bg .btn-no {
-  border-color: #ff6b6b;
-  color: #ff6b6b;
+  border: none;
+  color: #000000;
+  background-color: transparent;
 }
 
 .pink-bg .btn-no:hover {
-  background-color: #ff6b6b;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000;
 }
 
 .double-yes {
-  border-color: #ff69b4;
-  color: #ff69b4;
+  border: none;
+  color: #000000;
+  background-color: transparent;
 }
 
 .password-form {
