@@ -5,8 +5,8 @@ import catsImage from './assets/cats.webp'
 const RESTAURANTS = [
   { name: 'Cintro on Wellington', url: 'https://www.cintro.ca/' },
   { name: "Dimi's Greek House", url: 'https://www.dimis.ca/ ' },
-  { name: 'Five87 Bistro', url: 'https://www.five87bistro.com/' },
-  { name: 'Hunter & Co', url: 'https://www.hunterandcorestaurant.com/' },
+  { name: 'Five87 Bistro', url: 'https://five87bistro.ca/' },
+  { name: 'Hunter & Co', url: 'https://www.hunterco.ca/'},
   { name: 'Other (please call Stephan)'}
 ]
 
