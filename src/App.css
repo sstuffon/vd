@@ -142,29 +142,29 @@
 }
 
 .pink-bg .btn-yes {
-  border: none;
+  border: 2px solid #000000;
   color: #000000;
   background-color: transparent;
 }
 
 .pink-bg .btn-yes:hover {
-  background-color: transparent;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .pink-bg .btn-no {
-  border: none;
+  border: 2px solid #000000;
   color: #000000;
   background-color: transparent;
 }
 
 .pink-bg .btn-no:hover {
-  background-color: transparent;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .double-yes {
-  border: none;
+  border: 2px solid #000000;
   color: #000000;
   background-color: transparent;
 }
@@ -267,7 +267,7 @@
 }
 
 .cats-image {
-  max-width: 500px;
+  max-width: 350px;
   width: 100%;
   height: auto;
   border-radius: 20px;
