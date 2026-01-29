@@ -55,6 +55,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: List dist contents for debugging
+        run: |
+          echo "Contents of dist folder:"
+          ls -la dist/
+          echo "Contents of dist/assets:"
+          ls -la dist/assets/ || echo "No assets folder"
+          echo "First few lines of dist/index.html:"
+          head -15 dist/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -70,3 +79,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
