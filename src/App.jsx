@@ -42,21 +42,15 @@ function App() {
   const [restaurantTexts, setRestaurantTexts] = useState(RESTAURANTS.map(() => ''))
   const [scheduleText, setScheduleText] = useState('')
 
-  // Typewriter effect for initial question
+  // Fade-in effect for initial question
   useEffect(() => {
     if (stage === 'nameCheck') {
       setNameQuestionText('')
       const fullText = 'Is your name Briana Francis?'
-      let currentIndex = 0
-      const typeInterval = setInterval(() => {
-        if (currentIndex < fullText.length) {
-          setNameQuestionText(fullText.substring(0, currentIndex + 1))
-          currentIndex++
-        } else {
-          clearInterval(typeInterval)
-        }
-      }, 50)
-      return () => clearInterval(typeInterval)
+      // Show the full text immediately for fade-in effect
+      setTimeout(() => {
+        setNameQuestionText(fullText)
+      }, 100)
     }
   }, [stage])
 
@@ -177,12 +171,11 @@ function App() {
         const showButtons = nameQuestionText === fullQuestion
         return (
           <div className="stage-container white-bg">
-            <h1 className="question-text typewriter-text">
+            <h1 className={`question-text fade-in-text ${nameQuestionText ? 'visible' : ''}`}>
               {nameQuestionText}
-              {nameQuestionText.length > 0 && <span className="cursor">|</span>}
             </h1>
             {showButtons && (
-              <div className="button-group">
+              <div className="button-group fade-in-buttons">
                 <button className="btn btn-yes" onClick={() => handleNameCheck(true)}>Yes</button>
                 <button className="btn btn-no" onClick={() => handleNameCheck(false)}>No</button>
               </div>
