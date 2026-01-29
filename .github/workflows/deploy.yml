@@ -39,6 +39,19 @@ jobs:
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
 
+      - name: Verify build output
+        run: |
+          echo "Checking dist/index.html..."
+          if grep -q "/src/main.jsx" dist/index.html; then
+            echo "ERROR: dist/index.html still references /src/main.jsx"
+            exit 1
+          fi
+          if ! grep -q "/vd/assets/index-" dist/index.html; then
+            echo "ERROR: dist/index.html doesn't reference built assets"
+            exit 1
+          fi
+          echo "Build output verified successfully"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
