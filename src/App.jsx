@@ -4,10 +4,10 @@ import catsImage from './assets/cats.webp'
 
 const RESTAURANTS = [
   { name: 'Cintro on Wellington', url: 'https://www.cintro.ca/' },
-  { name: "Dimi's Greek House", url: 'https://www.dimis.ca/ ' },
+  { name: "Dimi's Greek House", url: 'https://www.dimis.ca/' },
   { name: 'Five87 Bistro', url: 'https://five87bistro.ca/' },
-  { name: 'Hunter & Co', url: 'https://www.hunterco.ca/'},
-  { name: 'Other (please call Stephan)'}
+  { name: 'Hunter & Co', url: 'https://www.hunterco.ca/' },
+  { name: 'Other (please call Stephan)' }
 ]
 
 const NO_BUTTON_MESSAGES = [
