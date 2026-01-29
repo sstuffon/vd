@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: 'Dancing Script', 'Great Vibes', 'Cormorant Garamond', 'Playfair Display', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   overflow-x: hidden;
+  background-color: #ffffff;
 }
 
 #root {
