@@ -48,11 +48,11 @@
   margin-bottom: 3rem;
   text-align: center;
   font-weight: normal;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
 }
 
 .typewriter-text {
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
 }
 
 .fade-in-text {
@@ -116,7 +116,7 @@
   cursor: pointer;
   border-radius: 8px;
   transition: all 0.3s ease;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   font-weight: bold;
 }
 
@@ -210,7 +210,7 @@
   color: #ffffff;
   border-radius: 8px;
   text-align: center;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   width: 300px;
 }
 
@@ -307,7 +307,7 @@
   color: #000000;
   text-align: center;
   margin-bottom: 2rem;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
 }
 
 .restaurants-stage {
@@ -319,7 +319,7 @@
   font-weight: bold;
   text-align: center;
   color: #ffffff;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   letter-spacing: 2px;
   margin-bottom: 3rem;
 }
@@ -343,7 +343,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   font-weight: 400;
   text-align: left;
   display: block;
@@ -380,7 +380,7 @@
   cursor: pointer;
   border-radius: 8px;
   transition: all 0.3s ease;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   font-weight: bold;
   margin-top: 3rem;
 }
@@ -431,7 +431,7 @@
   color: #ffffff;
   text-align: center;
   font-weight: bold;
-  font-family: 'Dancing Script', 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border: 2px solid #ffffff;
